@@ -46,30 +46,17 @@ CollectCopy/
 
 ### 基本的な使い方
 
-1. **フィルタ文字列を入力**: 抽出したいリンクに含まれる文字列を入力（例：`rapidgator`、`github`）
+1. **フィルタ文字列を入力**: 抽出したいリンクに含まれる文字列を入力（例：`github`、`pdf`）
 2. **Collect & Copyをクリック**: ボタンをクリックすると全タブから抽出開始
 3. **結果を確認**: 処理タブ数、抽出件数が表示される
 4. **貼り付け**: クリップボードにコピーされているので、任意の場所に貼り付け
 
 ### 例
 
-#### 例1: RapidGatorのリンクを抽出
+#### 例1: GitHubリポジトリのリンクを抽出
 
 ```
-フィルタ文字列: rapidgator
-```
-
-結果（クリップボード）:
-```
-https://rapidgator.net/file/abc123
-https://rapidgator.net/file/def456
-https://rapidgator.net/file/ghi789
-```
-
-#### 例2: GitHubリポジトリのリンクを抽出
-
-```
-フィルタ文字列: github.com/
+フィルタ文字列: github.com
 ```
 
 結果（クリップボード）:
@@ -77,6 +64,19 @@ https://rapidgator.net/file/ghi789
 https://github.com/user1/repo1
 https://github.com/user2/repo2
 https://github.com/user3/repo3
+```
+
+#### 例2: PDFファイルへのリンクを抽出
+
+```
+フィルタ文字列: .pdf
+```
+
+結果（クリップボード）:
+```
+https://example.com/document1.pdf
+https://example.com/research/paper.pdf
+https://example.com/guide.pdf
 ```
 
 ## 技術仕様
